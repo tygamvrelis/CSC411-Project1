@@ -59,7 +59,7 @@ def part5_classify(input, theta, size):
         input -- a list in the form (imageMatrix, labels) used to make
                 predictions and determine performance characteristics
         theta -- the learned parameters that will be used to make predictions
-        size -- the size of the training set to be tested
+        size -- the size of the classification set to be tested
     '''
     
     cost = 0

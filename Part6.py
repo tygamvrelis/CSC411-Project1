@@ -72,7 +72,7 @@ def part6_gradient_descent(X, Y, init_theta, alpha, eps, max_iter):
     
     Arguments:
         X -- input data for X (the data to be used to make predictions)
-        Y -- input data for X (the actual/target data)
+        Y -- output data for Y (the actual/target data)
         init_theta -- the initial guess for the local minimum (starting point)
         alpha -- the learning rate; proportional to the step size
         eps -- used to determine img[0]when the algorithm has converged on a 
